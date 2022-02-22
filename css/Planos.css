@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1349px;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size:62.5%;
+    color:black;
+    font-family: 'lato', sans-serif;
+    cursor: default;
+    background:linear-gradient(90deg,rgb(0, 183, 255), rgba(31, 255, 244, 0.767)) ;
+}
+
+main{
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    padding-bottom: 35px;
+    
+
+}
+
+.container-1{
+    background:linear-gradient(90deg,rgb(4, 226, 255), rgba(162, 2, 255, 0.774)) ;
+    text-align: center;
+    padding: 40px;
+    border-radius:12px;
+    margin: 0 15px;
+    height:89vh;
+   
+}   
+.container-2{
+    background:linear-gradient(90deg,rgb(4, 226, 255), rgba(162, 2, 255, 0.774)) ;
+    text-align: center;
+    padding: 40px;
+    border-radius:12px;
+    margin: 0 15px;
+    height:89vh;
+}   
+
+.container-3{
+    background:linear-gradient(90deg,rgb(4, 226, 255), rgba(162, 2, 255, 0.774)) ;
+    text-align: center;
+    padding: 40px;
+    border-radius:12px;
+    margin: 0 15px;
+    height:89vh;
+}
+
+
+.first{
+    width:250px;
+    margin: 15px 0;
+    height:40vh;
+
+}
+.second{
+    width:250px;
+    margin: 15px 0;
+    height:36vh;
+}
+.thirt{
+    width:250px;
+    margin: 15px 0;
+    height:36vh;
+}
+
+
+
+
+.plans{
+    text-decoration:none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    padding:0.6 1.2rem;
+    border:1px solid  rgb(255, 255, 255);
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    
+}
+
+.basic{
+    font-size:28px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+   
+}
+
+
+.price{
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+p{
+    color:rgba(255, 255, 255, 0.774);
+    font-weight:bold;
+    font-size: 20px;
+}
+
+
+.plano2 padding p{
+   margin: 10 20px;
+}
+header{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(22,22,22, 0.2);
+    
+}
+
+
+
+.menu-content {
+    text-transform: uppercase;
+    color: #fff;
+    height: 100vh;
+    display:flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+
+}
+
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor:pointer;
+    padding-top: 10px;    
+    padding-right: 500px;
+}
+.list-itens{
+   display: flex;
+   list-style: none;
+   gap:10px;
+   padding-top: 10px;    
+
+}
+
+.list-itens a{
+    align-items: center;
+    color: #fff;
+    padding:1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+    text-decoration: none;
+}
+.list-itens a:before{
+  content:'';
+  position: absolute;
+  bottom:5px;
+  left:0;
+  width: 0;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+
+}
+.list-itens a:hover:before{
+    width: 100%
+  
+  }
+  
+/* ////////////////////////////// */
+.btns{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding-bottom:50px;
+}
+
+.plans{
+width: 250px;
+height: 60px;
+cursor: pointer;
+border: 1px solid #fff;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+background-color: transparent;
+font-weight: bold;
+letter-spacing: 0.2rem;
+border-radius: 20px;
+position: relative;
+transition:1.5s;
+
+
+
+}
+
+.btns .plans:before{
+    content: '';
+    border-radius: 20px;
+    bottom:0;
+    left:0;
+    position: absolute;
+    width:0%;
+    height: 60px;
+    background-color:rgba(255, 255, 255,0.808);
+    z-index: -1;
+    transition: 1s;
+    
+}
+.btns .plans:hover{
+    color:rgba(162, 2, 255, 0.774);
+    
+
+
+}
+.btns .plans:hover:before{
+    width:250px;
+   
+}
+  /* /////////////////rodapé////////////////// */
+.footer {
+    background-color: rgb(25, 25, 27,0.4);
+    height:20vh;
+    text-decoration: none;
+
+}
+.footer-h1{
+    color:#fff; 
+    font-size:1.3rem;
+    text-align:center;
+    padding-top:20px;
+    
+    
+}
+
+.footer-ul{
+
+    display: flex;
+    list-style: none;
+    gap:10px;
+    text-align: center;
+    padding-top: 3.5rem;
+    color: #fff;
+    font-size: 1.8rem;
+    justify-content:center;
+    font-family: 'lato', sans-serif;
+    
+   
+}
+
+.footer-ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
