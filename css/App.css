@@ -23,7 +23,8 @@ header{
     width: 100vw;
     height: 7vh;
     background: rgb(26,28,33);
-    
+    cursor: pointer;
+
 }
 
 .menu-content {
@@ -33,7 +34,7 @@ header{
     display:flex;
     justify-content: space-around;
     font-size: 1.8rem;
-
+ 
 }
 
 .logo{
@@ -108,13 +109,13 @@ div.segundo{
 .text-p {
    color:rgb(255, 255, 255);
    float: right;
-   margin-top: 50px;
+   margin-top: 270px;
    text-align:justify;
    text-transform: uppercase;
    font-size: 1.8rem;
    font-family:'lato', sans-serif;
-   width:40vw;
-   margin-right:180px;
+   width:38vw;
+   margin-right:-470px;
    font-weight: 700;
  
 }
